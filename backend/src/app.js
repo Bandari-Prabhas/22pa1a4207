@@ -6,7 +6,7 @@ const cors = require('cors'); // Import cors
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:5174' })); // Use cors middleware
+app.use(cors({ origin: 'http://localhost:5173' })); // Use cors middleware
 
 const PORT = 5000;
 
